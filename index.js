@@ -1,9 +1,12 @@
 // Write your solution here!
-const append = ["Milo", "Otis", "Garfield"]
-append.push('odie')
+const append = ["Milo", "Otis", "Garfield"];
+append.push('Odie');
 
-const prepend = ['Odie', 'Milo', 'Otis', 'Garfield']
+const prepend = ['Milo', 'Otis', 'Garfield'];
+prepend.unshift('Odie');
 
-const removeLast = ['Milo', 'Otis']
+const removeLast = ['Milo', 'Otis', 'Garfield'];
+removeLast.pop();
 
-const removeFirst = ['Otis', 'Garfield']
+const removeFirst = ['Milo', 'Otis', 'Garfield'];
+removeFirst.shift();
